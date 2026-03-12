@@ -1,8 +1,8 @@
 //atv 3
-let idade=60;
-let preco=10;
+let idade=61;
+let preco=110;
 
-if(idade>=60 && preco>=100){
+if(idade>60 && preco>100){
     let precoFinal= preco-(preco*0,20);
     console.log("desconto aplicado ! novo preço: ", + precoFinal)
 }
